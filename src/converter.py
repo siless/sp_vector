@@ -9,6 +9,8 @@ class Converter(object):
     __colon = ":"
 
     def __init__(self):
+        """Constructor
+        """
         self.__data = None
 
     def set_vector_data(self, data: dict):
