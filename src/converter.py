@@ -2,8 +2,7 @@ from src.vector_to_json import VectorToJson
 
 
 class Converter(object):
-    """
-    Class converts the filecontent of vector files to json
+    """Class converts the filecontent of vector files to json
     """
     __ex_eci_pos = "ECI POS (KM)"
     __ex_eci_vel = "ECI VEL (KM/S)"
